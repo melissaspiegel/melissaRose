@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/mwm-pillars",
+  "version": "0.1.0",
+  "title": "MWM Pillars",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": "Build Tools:"
+    },
+    "text": {
+      "type": "string",
+      "default": "We built our project using Webpack, leveraging its powerful code-splitting capabilities to optimize load times and improve performance."
+    },
+    "linkText": {
+      "type": "string",
+      "default": "Webpack example"
+    },
+    "linkUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "linkTarget": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:../build/index.js",
+  "editorStyle": "file:../build/index.css",
+  "style": "file:../build/style-index.css"
+}

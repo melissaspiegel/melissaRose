@@ -1,0 +1,43 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-mwm-pillars {
+.pillar-block {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+    }
+
+    .pillar-icon {
+        max-width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .pillar-heading {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .pillar-text {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #555;
+    }
+
+    .pillar-link-wrapper {
+        display: inline-block;
+    }
+
+    .pillar-link {
+        color: #0073aa;
+        text-decoration: none;
+    }
+
+    .pillar-link:hover {
+        text-decoration: underline;
+    }
+}

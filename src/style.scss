@@ -1,0 +1,62 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-mwm-pillars {
+.pillar-block {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+    }
+
+
+    .pillar-icon {
+        max-width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .pillar-heading {
+        font-size: 24px;
+        font-weight: 400;
+        font-weight: 700;
+        letter-spacing: normal;
+        line-height: 1.25;
+        margin-bottom: 10px;
+        color: #595959;
+        margin-top:0px;
+
+    }
+
+    .pillar-text {
+        color: #595959;
+        font-size: 16px;
+        letter-spacing: normal;;
+
+    }
+
+    .pillar-link-wrapper {
+        display: inline-block;
+    }
+
+    .pillar-link {
+        color: #0073aa;
+        text-decoration: none;
+    }
+
+    .pillar-link:hover {
+        text-decoration: underline;
+    }
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+}
